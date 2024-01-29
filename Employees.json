@@ -1,0 +1,6 @@
+[
+    {"img":"img1.jpg", "name":"Lisa","dob":"10/01/2001","designation":"CEO","experience":"2 Years"},
+    {"img":"img2.jpg", "name":"Maria","dob":"01/06/2000","designation":"CTO","experience":"5 Years"},
+    {"img":"img3.jpg", "name":"Jacob","dob":"28/02/1980","designation":"MD","experience":"15 Years"},
+    {"img":"img4.jpg", "name":"John","dob":"07/04/1983","designation":"SSE","experience":"12 Years"}
+]

@@ -1,0 +1,70 @@
+html {
+    background: #780206;
+    background: -webkit-linear-gradient(to left, #061161, #780206);
+    background: linear-gradient(to left, #061161, #780206);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background: none;
+    color: white;
+}
+
+p {
+    font-size: small;
+}
+
+#card {
+    width: 400px;
+    height: 400px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    width: 52%;
+    padding: 14px;
+    background-color: #5738ba;
+    color: #fff;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: -6px;
+}
+
+.registerButton {
+    margin: 10px;
+}
+
+.loginButton {
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+form {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.active-form {
+    display: flex;
+}
